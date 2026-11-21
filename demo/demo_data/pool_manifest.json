@@ -1,0 +1,80 @@
+{
+  "seed": 42,
+  "stretches": 6,
+  "sentences_per_stretch": 24,
+  "total_sentences": 144,
+  "candidate_sides_after_exclusion": 1146,
+  "excluded_experiment2_conversations": [
+    "sw2005",
+    "sw2008",
+    "sw2010",
+    "sw2012"
+  ],
+  "excluded_experiment2_sides": [
+    "sw2005_A",
+    "sw2005_B",
+    "sw2008_A",
+    "sw2008_B",
+    "sw2010_A",
+    "sw2010_B",
+    "sw2012_A"
+  ],
+  "level_thresholds_switchboard": {
+    "speech_rate": {
+      "low": 2.5363507209321092,
+      "high": 4.389029650784139
+    },
+    "pause_ratio": {
+      "low": 0.0,
+      "high": 0.1908383973629138
+    },
+    "disfl_rate": {
+      "low": 0.0,
+      "high": 0.2083333333333333
+    }
+  },
+  "stretch_table": [
+    {
+      "stretch_id": 1,
+      "conversation_side": "sw2492_A",
+      "original_sentences": "11-34",
+      "tokens": 248,
+      "one_word_units": 10
+    },
+    {
+      "stretch_id": 2,
+      "conversation_side": "sw3638_B",
+      "original_sentences": "2-25",
+      "tokens": 297,
+      "one_word_units": 3
+    },
+    {
+      "stretch_id": 3,
+      "conversation_side": "sw3093_B",
+      "original_sentences": "20-43",
+      "tokens": 485,
+      "one_word_units": 5
+    },
+    {
+      "stretch_id": 4,
+      "conversation_side": "sw3315_B",
+      "original_sentences": "11-34",
+      "tokens": 264,
+      "one_word_units": 1
+    },
+    {
+      "stretch_id": 5,
+      "conversation_side": "sw2672_A",
+      "original_sentences": "15-38",
+      "tokens": 256,
+      "one_word_units": 13
+    },
+    {
+      "stretch_id": 6,
+      "conversation_side": "sw3099_A",
+      "original_sentences": "21-44",
+      "tokens": 374,
+      "one_word_units": 5
+    }
+  ]
+}

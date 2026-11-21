@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.demo_venv/
+env/
+
+# Secrets: never commit keys
+.streamlit/secrets.toml
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
