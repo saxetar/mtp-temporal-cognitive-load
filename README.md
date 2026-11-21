@@ -4,6 +4,12 @@ This is the demo for my M.Tech thesis at IIT Jodhpur, "LLM-based Temporal
 Reasoning for Cognitive Load and Disfluency Analysis in Spontaneous Speech"
 (Tarun Saxena, M25AI2135; supervisor Prof. Sidharth Ranjan).
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/saxetar/mtp-temporal-cognitive-load/blob/main/colab/MTP_demo_colab_verified.ipynb)
+
+I also made a Colab notebook (`colab/MTP_demo_colab_verified.ipynb`). It runs the same
+steps as the Streamlit app, with the same code, and it reads `GROQ_API_KEY` from Colab
+Secrets, so the key is never written in the notebook.
+
 In this demo, I repeat Experiment 2 of my thesis on Switchboard sentences that I
 did not use in the thesis. You choose a stretch of speech and how many sentences
 to use (4 to 24). The page then shows:
@@ -171,6 +177,8 @@ the reasons for each mismatch.
 ├── .streamlit/config.toml   theme and server settings
 ├── .gitignore
 ├── docs/                    screenshots
+├── colab/
+│   └── MTP_demo_colab_verified.ipynb   the same demo as a Colab notebook
 └── demo/
     ├── app.py               the Streamlit page (main file)
     ├── method.py            rule, prompt, answer reader and metrics (from the pipeline)
